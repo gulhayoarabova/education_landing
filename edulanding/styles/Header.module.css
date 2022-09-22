@@ -1,0 +1,56 @@
+.header_wrapper {
+  background: linear-gradient(38deg, #6654ec 0%, #54caf9 64%);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}
+.container {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+}
+.home_wrap{
+    width: 20%;
+}
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  width: 60%;
+}
+.navbar li {
+  margin-right: 50px;
+  color: #ffffff;
+  font-size: 19px;
+  font-weight: 500;
+  list-style: none;
+}
+.login {
+    width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lan_wrap{
+    width: 100%;
+    margin-right: 10px;
+    display: flex;
+        align-items: center;
+  
+}
+.lan_wrap p{
+    margin-left: 10px;
+}
+.lan_item{
+    color: #ffffff;
+        font-size: 19px;
+        font-weight: 500;
+}
+
+.kirish{
+        color: #fff;
+            font-size: 17px;
+            font-weight: 800;
+            letter-spacing: 4px
+}
